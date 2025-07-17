@@ -1,4 +1,4 @@
-# Qualcommax NSS Builder
+# ipq806x Builder
 
 This project automates the process of building OpenWrt firmware images for the Qualcomm IPQ806x platform, specifically targeting the Netgear R7500v2 router. The build process incorporates various optimizations, hardening options, and quality-of-life enhancements. 
 
