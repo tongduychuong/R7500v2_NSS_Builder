@@ -44,6 +44,6 @@ Contributions to this project are welcome. If you encounter any issues or have s
 ## Acknowledgements
 
 - The OpenWrt project for providing the foundation for this firmware build.
-- The Qualcomm IPQ806x platform and the Redmi ax6 router for the hardware support.
+- The Qualcomm IPQ806x platform and the R7500v2 router for the hardware support.
 - The community over at the [OpenWrt forum](https://forum.openwrt.org/t/ipq806x-nss-build-netgear-r7800-tp-link-c2600-linksys-ea8500/82525) for their valuable contributions and resources. 
 - And a special thanks to [asvio](https://github.com/asvio/R7800-nss/tree/r7800-k6.x-nss) for the main NSS development
