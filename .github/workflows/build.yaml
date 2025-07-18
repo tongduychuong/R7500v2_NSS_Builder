@@ -12,10 +12,10 @@ on:
 
 env:
   REMOTE_REPOSITORY: tongduychuong/R7800-nss
-  REMOTE_BRANCH: r7800-k6.x-nss
+  REMOTE_BRANCH: r7800-23.05-nss
   CONFIG_FILE: r7500v2.config
   CUSTOM_FILES_PATH: files/
-  RELEASE_PREFIX: r7800-k6.x-nss
+  RELEASE_PREFIX: r7800-23.05-nss
   NSS_PACKAGES_REPOSITORY: rickkdotnet/sqm-scripts-nss
   NSS_PACKAGES_REPOSITORY_BRANCH: sqm_scripts_nss
 
