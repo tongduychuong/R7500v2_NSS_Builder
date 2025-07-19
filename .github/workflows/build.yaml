@@ -16,8 +16,8 @@ env:
   CONFIG_FILE: r7500v2.config
   CUSTOM_FILES_PATH: files/
   RELEASE_PREFIX: r7800-23.05-nss
-  NSS_PACKAGES_REPOSITORY: rickkdotnet/sqm-scripts-nss
-  NSS_PACKAGES_REPOSITORY_BRANCH: sqm_scripts_nss
+  NSS_PACKAGES_REPOSITORY: ricsc/nss-packages
+  NSS_PACKAGES_REPOSITORY_BRANCH: NSS-11.2-K5.15
 
 jobs:
   check_commits:
