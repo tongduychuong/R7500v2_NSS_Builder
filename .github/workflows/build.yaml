@@ -11,8 +11,8 @@ on:
 #    - cron: "0 */2 * * *"
 
 env:
-  REMOTE_REPOSITORY: tongduychuong/R7800-nss
-  REMOTE_BRANCH: r7800-k6.x-nss
+  REMOTE_REPOSITORY: tongduychuong/openwrt
+  REMOTE_BRANCH: openwrt-23.05
   CONFIG_FILE: r7500v2.config
   CUSTOM_FILES_PATH: files/
   RELEASE_PREFIX: r7800-k6.x-nss
