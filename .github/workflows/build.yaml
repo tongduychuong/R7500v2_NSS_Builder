@@ -11,11 +11,11 @@ on:
 #    - cron: "0 */2 * * *"
 
 env:
-  REMOTE_REPOSITORY: tongduychuong/openwrt
-  REMOTE_BRANCH: openwrt-24.10
+  REMOTE_REPOSITORY: tongduychuong/r7500v2-nss
+  REMOTE_BRANCH: openwrt-24.10-nss
   CONFIG_FILE: r7500v2.config
   CUSTOM_FILES_PATH: files/
-  RELEASE_PREFIX: r7800-23.05-nss
+  RELEASE_PREFIX: openwrt-24.10-nss
   NSS_PACKAGES_REPOSITORY: ricsc/nss-packages
   NSS_PACKAGES_REPOSITORY_BRANCH: NSS-11.2-K5.15
 
@@ -118,11 +118,6 @@ jobs:
             **Repository:** [${{ env.REMOTE_REPOSITORY }}](https://github.com/${{ env.REMOTE_REPOSITORY }})
             **Branch:** `${{ env.REMOTE_BRANCH }}`
             **Commit:** `${{ needs.check_commits.outputs.latest_commit_sha }}`
-
-            ### 📦 NSS Packages
-            **Repository:** [${{ env.NSS_PACKAGES_REPOSITORY }}](https://github.com/${{ env.NSS_PACKAGES_REPOSITORY }})
-            **Branch:** `${{ env.NSS_PACKAGES_REPOSITORY_BRANCH }}`
-            **Commit:** `${{ needs.check_commits.outputs.nss_packages_repo_latest_commit_sha }}`
 
             ### 📝 Build Information
             - **Target:** [R7500v2](https://openwrt.org/toh/hwdata/netgear/netgear_r7500_v2)
